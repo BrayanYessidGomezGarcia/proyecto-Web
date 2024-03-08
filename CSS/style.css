@@ -2,19 +2,22 @@
     margin: 0;
     padding: 0;
 }
-.container{
+.container_1{
     height: 100vh;
     width: 100%;
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
 }
-.imag{
+.imag_1{
     background: rgb(197, 194, 194);
     height: 35px;
+    width: 99.1%;
     display: flex;
     flex-direction: row-reverse;
     padding: 10px;
 }
-.Menu{
+.menu{
     display: flex;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,21 +28,107 @@
     justify-content: space-around;
     list-style: none;
 }
-h4{
+.foods{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+    font-size: 30px;
     font-weight: bolder;
     display: flex;
-    margin: 0px 100vh 50px 50px
+    margin: 0px 100vh 50px 50px;
+    color: #e58f00;
 }
-.left{
+#home{
+    height: 60px;
+    width: 100px;
+    background: black ;
+    border: black;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-size: medium;
+    color: white;   
+    cursor: pointer;
+    transition: background-color 0.5s, box-shadow 0.5s; 
+}
+#home:active{
+    background-color: rgba(197, 194, 194, 0);
+    color: red;
+    box-shadow: none;
+}
+#about{
+    height: 60px;
+    width: 100px;
+    background: black ;
+    border: black;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-size: medium;
+    color: white;   
+    cursor: pointer;
+    transition: background-color 0.5s, box-shadow 0.5s; 
+}
+#about:active{
+    background-color: rgba(197, 194, 194, 0);
+    color: red;
+    box-shadow: none;
+}
+#menu{
+    height: 60px;
+    width: 100px;
+    background: black ;
+    border: black;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-size: medium;
+    color: white;   
+    cursor: pointer;
+    transition: background-color 0.5s, box-shadow 0.5s; 
+}
+#menu:active{
+    background-color: rgba(197, 194, 194, 0);
+    color: red;
+    box-shadow: none;
+}
+#service{
+    height: 60px;
+    width: 100px;
+    background: black ;
+    border: black;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-size: medium;
+    color: white;   
+    cursor: pointer;
+    transition: background-color 0.5s, box-shadow 0.5s; 
+}
+#service:active{
+    background-color: rgba(197, 194, 194, 0);
+    color: red;
+    box-shadow: none;
+}
+#contact{
+    height: 60px;
+    width: 100px;
+    background: black ;
+    border: black;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-size: medium;
+    color: white;   
+    cursor: pointer;
+    transition: background-color 0.5s, box-shadow 0.5s; 
+}
+#contact:active{
+    background-color: rgba(197, 194, 194, 0);
+    color: red;
+    box-shadow: none;
+}
+.home{
     background: black;
-    display: flex;
+    display: flex;  
     flex-direction: row;
     text-align: right;
     align-content: flex-end;
     height: 70vh;
-    width: 202vh;
+    width: 201vh;
 }
 .img_home{
     display: flex;
@@ -58,9 +147,8 @@ h4{
     padding: 0;
     margin: 100px 0px 500px 400px;
 }
-h1{
+.Titulo_pag_1{
     display: flex;
-    
     color: #e58f00;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
@@ -92,7 +180,7 @@ h1{
     justify-content: start;
     margin: 0px 0px 30px 0px;
 }
-.boton{
+.boton_pag_1{
     height: 60px;
     width: 200px;
     background: rgb(250, 121, 0) ;
@@ -103,7 +191,75 @@ h1{
     cursor: pointer;
     transition: background-color 0.5s, box-shadow 0.5s; 
 }
-.boton:active {
+.boton_pag_1:active {
     background: rgba(230, 100, 0, 0.37); /* Cambia el color cuando se presiona */
     box-shadow: none; /* Elimina la sombra cuando se presiona */
+}
+
+/*Segunda Pagina*/
+
+.container_2{
+    height: 100vh;
+    width: 100%;
+    background-color:blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja_pg_2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    flex-direction: row-reverse;
+}
+.texto_pag_2{
+    display: flex;
+    height: 50vh;
+    width: 70vh;  
+    padding: 0;
+    margin: 200px 0px 500px 100px;
+}
+.About{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin: 0 0 35px 0;
+    color: #e58f00;
+}
+.titulo_pag_2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0 0 35px 0;
+    width: 40vh;
+    color: white;
+}
+.parrafo_pag_2{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0 0 35px 0;
+    width: 40vh;
+    color: white;
+}
+.boton_pag_2{
+    height: 50px;
+    width: 170px;
+    background: rgb(250, 121, 0) ;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+    font-size: larger;
+    color: white;   
+    cursor: pointer;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.boton_pag_2:active {
+    background: rgba(230, 100, 0, 0.37); /* Cambia el color cuando se presiona */
+    box-shadow: none; /* Elimina la sombra cuando se presiona */
+}
+.img_pag_2{
+    width: 80vh;
+    height: 80vh;
+    margin: 40px 100px 0 0;
 }
