@@ -351,6 +351,7 @@
     font-weight: lighter;
 }
 .precio{
-    color: #e58f00;
-    font-weight: bolder;
+    color: #ff7b00;
+    font-weight: bold;
+    font-size: large;
 }
