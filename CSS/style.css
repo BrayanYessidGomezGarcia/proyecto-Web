@@ -17,7 +17,7 @@
     flex-direction: row-reverse;
     padding: 10px;
 }
-.menu{
+.menu_superior{
     display: flex;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -229,9 +229,9 @@
 .titulo_pag_2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0 0 35px 0;
-    width: 40vh;
+    width: 45vh;
     color: white;
 }
 .parrafo_pag_2{
@@ -262,4 +262,95 @@
     width: 80vh;
     height: 80vh;
     margin: 40px 100px 0 0;
+}
+
+/* Tercera Pagina */
+
+.container_3{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+.caja_pg_3{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    flex-direction: column;
+    align-items: center;
+}
+.food_menu{
+    display: flex;
+    color: rgb(250, 121, 0) ;
+    height: 40px;
+    background: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    margin: 60px 10px 20px 0;
+}
+.titulo_pag_3{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0 0 35px 0;
+    width: 700px;
+    color: white;
+    background: black;
+    justify-content: center;
+}
+.contenedor_imagenes{
+    display: flex;
+    background: black;
+    height: 60vh;
+    width: 160vh;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0
+}
+.caja_food{
+    display: flex;
+    background: rgb(235, 218, 188);
+    width:  45vh;
+    height: 45vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+    border-color: #e58f00;
+
+}
+.food_img{
+    display: flex;
+    height: 30vh;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+}
+.food_img3{
+    display: flex;
+    height: 30vh;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+.texto_caja{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.tasty_pg{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.precio{
+    color: #e58f00;
+    font-weight: bolder;
 }
