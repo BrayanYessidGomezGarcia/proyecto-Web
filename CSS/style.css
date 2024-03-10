@@ -36,7 +36,7 @@
     margin: 0px 100vh 50px 50px;
     color: #e58f00;
 }
-#home{
+.Home{
     height: 60px;
     width: 100px;
     background: black ;
@@ -47,13 +47,14 @@
     color: white;   
     cursor: pointer;
     transition: background-color 0.5s, box-shadow 0.5s; 
+    text-decoration: none;
 }
-#home:active{
+.Home:active{
     background-color: rgba(197, 194, 194, 0);
     color: red;
     box-shadow: none;
 }
-#about{
+.boton_home{
     height: 60px;
     width: 100px;
     background: black ;
@@ -64,64 +65,14 @@
     color: white;   
     cursor: pointer;
     transition: background-color 0.5s, box-shadow 0.5s; 
+    text-decoration: none;
 }
-#about:active{
+.boton_home:active{
     background-color: rgba(197, 194, 194, 0);
     color: red;
     box-shadow: none;
 }
-#menu{
-    height: 60px;
-    width: 100px;
-    background: black ;
-    border: black;
-    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
-    font-weight: bold;
-    font-size: medium;
-    color: white;   
-    cursor: pointer;
-    transition: background-color 0.5s, box-shadow 0.5s; 
-}
-#menu:active{
-    background-color: rgba(197, 194, 194, 0);
-    color: red;
-    box-shadow: none;
-}
-#service{
-    height: 60px;
-    width: 100px;
-    background: black ;
-    border: black;
-    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
-    font-weight: bold;
-    font-size: medium;
-    color: white;   
-    cursor: pointer;
-    transition: background-color 0.5s, box-shadow 0.5s; 
-}
-#service:active{
-    background-color: rgba(197, 194, 194, 0);
-    color: red;
-    box-shadow: none;
-}
-#contact{
-    height: 60px;
-    width: 100px;
-    background: black ;
-    border: black;
-    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
-    font-weight: bold;
-    font-size: medium;
-    color: white;   
-    cursor: pointer;
-    transition: background-color 0.5s, box-shadow 0.5s; 
-}
-#contact:active{
-    background-color: rgba(197, 194, 194, 0);
-    color: red;
-    box-shadow: none;
-}
-.home{
+.home_pag_1{
     background: black;
     display: flex;  
     flex-direction: row;
@@ -196,7 +147,7 @@
     box-shadow: none; /* Elimina la sombra cuando se presiona */
 }
 
-/*Segunda Pagina*/
+/********** Segunda Pagina************/
 
 .container_2{
     height: 100vh;
@@ -264,7 +215,7 @@
     margin: 40px 100px 0 0;
 }
 
-/* Tercera Pagina */
+/******** Tercera Pagina ***********/
 
 .container_3{
     margin: 0;
@@ -354,4 +305,85 @@
     color: #ff7b00;
     font-weight: bold;
     font-size: large;
+}
+
+/* ****** Tercera Pagina *********** */
+
+.container_4{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+.caja_pg_4{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo_services{
+    display: flex;
+    color: rgb(250, 121, 0) ;
+    height: 40px;
+    background: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    margin: 60px 10px 20px 0;
+}
+.titulo_pag_4{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0 0 35px 0;
+    width: 700px;
+    color: white;
+    background: black;
+    justify-content: center;
+}
+.contenedor_imagenes_2{
+    display: flex;
+    background: black;
+    height: 60vh;
+    width: 160vh;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0
+}
+.caja_service{
+    display: flex;
+    background: black;
+    width:  45vh;
+    height: 45vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+}
+.services_img{
+    display: flex;
+    height: 30vh;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+}
+.texto_services{
+    color: #ff7b00;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 0 10px 0  ;
+}
+.parrafo_services{
+    display: flex;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    justify-content: space-around;
+    text-align: center;
 }
