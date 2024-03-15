@@ -58,15 +58,14 @@ header{
         display: block;
     }
     .menu{
-        position: fixed;
-        width:40vh;
-        height: 20vh;
-        background: rgb(19, 10, 34) ;
         position: absolute;
+        width:50vh;
+        height: 20vh;
+        background: rgb(19, 10, 34);
         right: -100%;
         top: 8vh;
         text-align: center;
-        padding: 100px 0;
+        padding: 0;
         z-index: 100;
         transition: 0.7s;
     }
@@ -212,10 +211,10 @@ header{
         display: flex;
         width: 60vh;
         height: 40vh;
-        margin: 30% 0 0 15%;
+        margin: 10% 0 0 10%;
     }
     .img_hamburguesa img{
-        width: 60vh;
+        width: 40vh;
         height: 40vh;
         }
 }
@@ -527,7 +526,7 @@ header{
     display: flex;
     width: 100%;
     height: 100vh;
-    background: rgb(3, 3, 49);
+    background: rgb(19, 10, 34);
     flex-direction: column;
     align-items: center;
 }
@@ -535,7 +534,7 @@ header{
     display: flex;
     color: rgb(250, 121, 0) ;
     height: 40px;
-    background: rgb(3, 3, 49);
+    background: rgb(19, 10, 34);
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     justify-content: center;
@@ -549,12 +548,12 @@ header{
     margin: 0 0 35px 0;
     width: 100vh;
     color: white;
-    background: rgb(3, 3, 49);
+    background: rgb(19, 10, 34);
     justify-content: center;
 }
 .contenedor_imagenes_2{
     display: flex;
-    background: rgb(3, 3, 49);
+    background: rgb(19, 10, 34);
     height: 60vh;
     width: 160vh;
     align-items: center;
@@ -564,14 +563,14 @@ header{
 }
 .caja_service{
     display: flex;
-    background: rgb(3, 3, 49);
+    background: rgb(19, 10, 34);
     width:  45vh;
     height: 45vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-style: double;
-    border: rgb(3, 3, 49);
+    border: rgb(19, 10, 34);
 }
 .services_img{
     display: flex;
@@ -605,6 +604,54 @@ header{
         height: 125vh;
         width: 50vh;
     }
+    .caja_pg_4{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        width: 40vh;
+    }
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        width: 100%;
+    }
+    .titulo_services{
+        margin: 4vh 0 0 25%;
+        font-size: 20px;
+    }
+    .titulo_pag_4{
+        display: flex;
+        width: 50vh;
+        font-size: 5vh;
+        margin: 4vh 0 0 0;
+        text-align: center;
+    }
+    .contenedor_imagenes_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        margin: 1vh 0 0 10vh;
+    }
+    .caja_service{
+        display: flex;
+        width: 40vh;
+        height: 30vh;
+        margin: 0 0 0 0;
+    }
+    .services_img{
+        display: flex;
+        width: 20vh;
+        height: 18vh; 
+    }
+    .texto_services{
+        font-size: 18px;
+    }
+    .parrrafo_services{
+        font-size: 12px;
+        width: 30vh;
+    }
 }
 
 
@@ -616,11 +663,11 @@ header{
     height: 100vh;
     width: 100%;
 }
-.caja_pg_5{
+.caja_pag_5{
     display: flex;
     width: 100%;
     height: 100vh;
-    background: rgb(3, 3, 49);
+    background: rgb(19, 10, 34);
     flex-direction: column;
     align-items: center;
 }
@@ -645,6 +692,7 @@ header{
     width: 70vh;
     text-align: center;
     color: black;
+    background: rgb(235, 218, 188);
 }
 .boton_pg_5{
     height: 5vh;
@@ -668,7 +716,7 @@ header{
     flex-direction: row;
     width: 100%;
     height: 50vh;
-    background: rgb(3, 3, 49);
+    background: rgb(19, 10, 34);
     justify-content: space-around;
 }
 .informacion_contactos{
@@ -709,19 +757,6 @@ header{
     color: white;
     margin: 5vh 0 0 0;
 }
-.lista_links::after{
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 3px;
-    bottom: 0;
-    background: #ff7b00;
-}
-.lista_links:hover{
-    color: #ff7b00;
-    transition: 0.2s ease;
-}
-
 .lista_iconos{
     display: flex;
     flex-direction: row;
@@ -735,32 +770,78 @@ header{
     height: 5vh;
     font-size: 4rem;
     fill: white;
+    color: white;
+    margin: 0 1vh 0 0;
 } 
 
-/* Estilos CSS para dispositivos móviles */
-@media(max-width:768px) {
-    .container_1{
+@media (max-width:768px){
+    .container_5{
         display: flex;
         flex-direction: column;
-        padding: 0;
-        margin: 0;
+        height: 180vh;
+        width: 50vh;
+    }
+    .caja_pag_5{
+        display: flex;
+        flex-direction: column;
+        height: 180vh;
+        width: 50vh;
+    }
+    .contactos{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        width: 40vh;
+        margin: 7vh 0 0 1vh;
+    }
+    .titulo_contact{
+        width: 30vh;
+        height: 8vh;
+        font-size: 20px;
+        margin: 3vh 0 0 0;
+    }
+    .boton_pg_5{
+        margin: 0 0 0 0;
+    }
+    .caja_informativa{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        width: 100%;
+        height: 100vh;
+        margin: 9vh 0 0 0;
     }
-    .home_pag_1{
+    .informacion_contactos{
+        margin: 20vh 0 0 0;
+    }
+    .caja_menu_links,
+    .caja_our_servive{
         display: flex;
-        width: 70vh;
-        height: 70vh;
+        height: 25vh;
+        width: 30vh;
+        justify-content: start;
         flex-direction: column;
     }
-    .caja_hamburguesa{
-        width: 20vh;
-        height: 20vh;
-        order: 2;
+    .Our_servive{
+        display: flex;
+        margin: 1vh 0 0 0;
+        justify-content: start;
+        font-size: 25px;
     }
-    .img_hamburguesa{
-        width: 20vh;
-        height: 20vh;
-        order: 1;
+    .lista_links{
+        display: flex;
+        margin: 3vh 0 0 0;
+        justify-content: start;
+        align-items: flex-start;
+        font-size: 15px;
+    }
+    .lista_iconos{
+        display: flex;
+        justify-content: space-evenly;
+        width: 15vh;
+
     }
 }
 
